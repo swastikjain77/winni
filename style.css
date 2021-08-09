@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin-bottom: 5px !important;
+}
+
+.navbar-toggler {
+    border: 0px solid black !important;
+    width: 20px !important;
+}
+
+.navbar-toggler-icon {
+    width: 20px !important;
+}
+
+.logo {
+    width: 185px;
+    height: 40px;
+}
+
+.flickity-page-dots,
+.flickity-button {
+    display: none;
+}
+
+
+/* Menu coding  */
+
+.icon-bar {
+    position: fixed;
+    /* top: 659px; */
+    top: 96%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    z-index: 999;
+    margin-bottom: 2px;
+}
+
+
+/* Message coding  */
+
+.message {
+    position: fixed;
+    /* top: 659px; */
+    top: 85%;
+    left: 80%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    z-index: 999;
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
